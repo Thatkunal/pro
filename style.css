@@ -46,21 +46,25 @@ body {
 .set-wake-time-content {
     display: flex;
     justify-content: space-evenly;
+    color: #3D087B;
 }
 
 .set-lunch-time-content {
     display: flex;
     justify-content: space-evenly;
+    color: #3D087B;
 }
 
 .set-nap-time-content {
     display: flex;
     justify-content: space-evenly;
+    color: #3D087B;
 }
 
 .set-night-time-content {
     display: flex;
     justify-content: space-evenly;
+    color: #3D087B;
 }
 
 select {
@@ -73,15 +77,10 @@ select {
     color: #3D087BDE;
 }
 
-
 .line {
     font-size: 1.8rem;
     margin-left: 5vw;
 
-}
-
-.box {
-    color: #3D087B;
 }
 
 /* p {
@@ -106,10 +105,8 @@ select {
     display: flex;
     justify-content: center;
     font-size: 2rem;
-    color: white;
-    margin-top: 15px;
-    text-transform: uppercase;
-    opacity: 1;
+     color:black;
+     margin-top: 15px; 
 }
 
 .alram {
@@ -150,11 +147,13 @@ select {
     opacity: 0.23;
     position: absolute;
     font-size: 1.3rem;
-    padding-top: 2vh;
-    padding-left: 1vw;
+padding-top: 2vh;
+padding-left: 1vw;
 }
-
-.container3 {
+.timewritten{
+    font-size:1rem;
+}
+.container3{
     position: relative;
     flex: 50%;
 }
@@ -183,11 +182,12 @@ select {
     justify-content: center;
     align-items: center;
     color: #5F0089;
-    padding-left: 1vw;
+    padding-left:1vw;
 }
 
 .minutes {
     background-image: url(./timeline.png);
+    /* background-repeat: no-repeat; */
     width: 6vw;
     height: 14vh;
     opacity: 1;
@@ -201,6 +201,7 @@ select {
 
 .seconds {
     background-image: url(./timeline.png);
+    /* background-repeat: no-repeat; */
     width: 6vw;
     height: 14vh;
     opacity: 1;
@@ -223,7 +224,7 @@ select {
     justify-content: center;
     align-items: center;
     font-size: 2rem;
-    color: #3D087B;
+    color: #3D087B; 
 }
 
 .trans1 {
@@ -272,10 +273,9 @@ select {
     top: 30vh;
     width: 44vw;
     height: 15vh;
-
+    
 }
-
-.point p {
+.point p{
     margin-top: 15px;
     display: flex;
     justify-content: center;
@@ -290,204 +290,181 @@ select {
     height: 50vh;
 }
 
-@media only screen and (min-width:501px) and (max-width:950px) {
+@media only screen and (min-width:501px) and (max-width:950px){
     .main_container {
-        flex-direction: column;
-    }
-
-    .container3 {
-        top: 95vh;
-    }
-
-    .clocklogo {
-        left: 12vw;
-        top: 1vh;
-    }
-
-    .set-time {
-        left: 7vw;
-        width: 86vw;
-        top: 15vh;
-        height: 46vh;
-    }
-
-    .line {
-        position: relative;
-        left: 8vw;
-    }
-
-    select {
-        width: 25vw;
-    }
-
-    .good_morning {
-        left: 7vw;
-        width: 86vw;
-        height: 13vh;
-    }
-
-    .alram {
-        left: 7vw;
-        width: 42vw;
-        height: 12vh;
-    }
-
-    .time_show {
-        left: 53vw;
-        width: 40vw;
-        height: 20vh;
-    }
-
-    .trans1 {
-        left: 10vw;
-        width: 77vw;
-    }
-
-    .trans2 {
-        left: 8vw;
-        width: 82vw;
-    }
-
-    .trans3 {
-        left: 6vw;
-        width: 87vw;
-    }
-
-    .point {
-        left: 7vw;
-        width: 87vw;
-        height: 16vh;
-    }
-
-    .image {
-        left: 4vw;
-        width: 85vw;
-    }
-
-    .hours {
-        width: 11vw;
-        padding-left: 3vw;
-    }
-
-    .minutes {
-        width: 11vw;
-        padding-left: 3vw;
-    }
-
-    .seconds {
-        width: 11vw;
-        padding-left: 4vw;
-    }
-
-    .am-pm {
-        width: 11vw;
-    }
+    flex-direction: column;
 }
+.container3{
+    top: 110vh;
+}
+.clocklogo{
+left: 12vw;
+top: 1vh;
+}
+.set-time{
+    left: 7vw;
+    width: 86vw;
+    top: 15vh;
+    height: 46vh;
+}
+.line{
+    position: relative;
+    left: 8vw;
+}
+select{
+    width: 25vw;
+}
+.good_morning{
+    left: 7vw;
+    width: 86vw;
+    height: 14vh
+}
+.alram{
+    left: 7vw;
+    width: 86vw;
+    height: 12vh;
+    font-size: 2rem;
+}
+.time_show{
+    left: 7vw;
+    width: 65vw;
+    height: 20vh;
+    /* font-size: 2rem; */
+    top: 91vh;
+}
+/* .timewritten{
+    font-size: 0.8rem;
+} */
+.trans1{
+    left: 10vw;
+    width: 77vw;
+}
+.trans2{
+    left: 8vw;
+    width: 82vw;
+}
+.trans3{
+    left: 6vw;
+    width: 87vw;
+}
+.point{
+    left: 7vw;
+    width: 87vw;
+    height: 16vh;
+    /* font-size: 2rem; */
+}
+.image{
+    left: 4vw;
+    width: 85vw;
+}
+.hours{
+    width: 11vw;
+    padding-left: 3vw;
+    /* font-size: 2rem; */
+}
+.minutes{
+    width: 11vw;
+    padding-left: 3vw;
+    /* font-size: 2rem; */
+}
+.seconds{
+    width: 11vw;
+    padding-left: 4vw;
+    /* font-size: 2rem; */
+    
+}
+.am-pm{
+    width: 11vw;
+    /* font-size: 2rem; */
 
-@media only screen and (min-width:300px) and (max-width:500px) {
+}
+}
+@media only screen and (min-width:300px) and (max-width:500px){
     .main_container {
-        flex-direction: column;
-    }
-
-    .container3 {
-        top: 95vh;
-    }
-
-    .clocklogo {
-        top: 1vh;
-        left: 12vw;
-    }
-
-    .set-time {
-        top: 15vh;
-        left: 7vw;
-        width: 86vw;
-        height: 46vh;
-    }
-
-    .line {
-        position: relative;
-        left: 6vw;
-    }
-
-    select {
-        width: 25vw;
-    }
-
-    .good_morning {
-        left: 7vw;
-        width: 86vw;
-        height: 13vh;
-    }
-
-    .good_morning p {
-        font-size: 1.2rem;
-    }
-
-    .alram {
-        left: 7vw;
-        width: 42vw;
-        height: 12vh;
-        font-size: 1.3rem;
-    }
-
-    .time_show {
-        left: 53vw;
-        width: 40vw;
-        height: 18vh;
-        font-size: 0.9rem;
-    }
-
-    .trans1 {
-        left: 10vw;
-        width: 77vw;
-    }
-
-    .trans2 {
-        left: 8vw;
-        width: 82vw;
-    }
-
-    .trans3 {
-        left: 6vw;
-        width: 87vw;
-    }
-
-    .point {
-        left: 7vw;
-        width: 87vw;
-        font-size: 1.2rem;
-    }
-
-    .image {
-        left: 4vw;
-        width: 85vw;
-    }
-
-    .time {
-        font-size: 1.3rem;
-    }
-
-    .hours {
-        width: 11vw;
-        padding-left: 2vw;
-        font-size: 1.3rem;
-    }
-
-    .minutes {
-        width: 11vw;
-        padding-left: 2vw;
-        font-size: 1.3rem;
-    }
-
-    .seconds {
-        width: 11vw;
-        padding-left: 3vw;
-        font-size: 1.3rem;
-    }
-
-    .am-pm {
-        width: 11vw;
-        font-size: 1.3rem;
-    }
+    flex-direction: column;
+}
+.container3{
+    top: 110vh;
+}
+.clocklogo{
+    top: 1vh;
+left: 12vw;
+}
+.set-time{
+    top: 15vh;
+    left: 7vw;
+    width: 86vw;
+    height: 46vh;
+}
+.line{
+    position: relative;
+    left: 6vw;
+}
+select{
+    width: 25vw;
+}
+.good_morning{
+    left: 7vw;
+    width: 86vw;
+    height: 13vh;
+}
+.good_morning p{
+    font-size: 1.2rem;
+}
+.alram{
+    left: 7vw;
+    width: 86vw;
+    height: 12vh;
+    font-size: 2rem;
+}
+.time_show{
+    left: 7vw;
+    width: 65vw;
+    height: 18vh;
+    font-size: 0.9rem;
+    top: 91vh;
+}
+.trans1{
+    left: 10vw;
+    width: 77vw;
+}
+.trans2{
+    left: 8vw;
+    width: 82vw;
+}
+.trans3{
+    left: 6vw;
+    width: 87vw;
+}
+.point{
+    left: 7vw;
+    width: 87vw;
+    font-size: 1.2rem;
+}
+.image{
+    left: 4vw;
+    width: 85vw;
+}
+.time1{
+    font-size: 1.3rem;
+}
+.hours{
+    width: 11vw;
+    padding-left: 2vw;
+    font-size: 1.3rem;
+}
+.minutes{
+    width: 11vw;
+    padding-left: 2vw;
+    font-size: 1.3rem;
+}
+.seconds{
+    width: 11vw;
+    padding-left: 3vw;
+    font-size: 1.3rem;
+}
+.am-pm{
+    width: 11vw;
+    font-size: 1.3rem;
+}
 }

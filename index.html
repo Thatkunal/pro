@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>J S Digital Clock</title>
+    <title>Document</title>
     <link rel="stylesheet" href="./style.css">
 </head>
 
@@ -13,10 +13,10 @@
         <div class="container1">
             <div class="clocklogo"></div>
             <div class="set-time">
-                <!-- <div class="container2"> -->
+                <div class="container2">
                     <div class="set-wake-time-content"  class="time">
                         <img src="./wake_up.png" alt="wake_up">
-                        <p class="box">Set Wake Time</p>
+                        <p>Set Wake Time</p>
                         <select name=" Set wake time" id="wakeup">
                             <option value="0">12 AM - 1 AM</option>
                             <option value="1">1 AM - 2 AM</option>
@@ -47,7 +47,7 @@
                     <span class="line">|</span>
                     <div class="set-lunch-time-content"  class="time">
                         <img src="./lunch_time.png" alt="lunch_time">
-                        <p class="box">Set Lunch Time</p>
+                        <p>Set Lunch Time</p>
                         <select name=" Set lunch time" id="lunchtime">
                             <option value="0">12 AM - 1 AM</option>
                             <option value="1">1 AM - 2 AM</option>
@@ -78,7 +78,7 @@
                     <span class="line">|</span>
                     <div class="set-nap-time-content"  class="time">
                         <img src="./nap_time.png" alt="nap_time">
-                        <p class="box">Set Nap Time</p>
+                        <p>Set Nap Time</p>
                         <select name="Set Nap time" id="naptime">
                             <option value="0">12 AM - 1 AM</option>
                             <option value="1">1 AM - 2 AM</option>
@@ -109,7 +109,7 @@
                     <span class="line">|</span>
                     <div class="set-night-time-content" class="time">
                         <img src="./nap_time.png" alt="nap_time">
-                        <p class="box">Set Night Time</p>
+                        <p>Set Night Time</p>
                         <select name="Set Night  time" id="nighttime">
                             <option value="0">12 AM - 1 AM</option>
                             <option value="1">1 AM - 2 AM</option>
@@ -137,7 +137,7 @@
                             <option value="23">11 PM - 12 PM</option>
                         </select>
                     </div>
-                <!-- </div> -->
+                </div>
             </div>
             <div class="good_morning" >
                 <p id="greeting">GOOD MORNING!! WAKE UP!!</p>
@@ -145,11 +145,11 @@
             <button class="alram" id="button" >
                 Set Alram
             </button>
-            <div class="time_show" id="time">
-                <p>Wake Up Time:</p>
-                <p>Lunch Time:</p>
-                <p>Nap Time:</p>
-                <p>Night Time:</p>
+            <div class="time_show"   >
+                <p>Wake Up Time:<span class="timewritten">default</span></p>
+                <p>Lunch Time:<span class="timewritten">default</span></p>
+                <p>Nap Time:<span class="timewritten">default</span></p>
+                <p>Night Time:<span class="timewritten">default</span></p>
             </div>
         </div>
         <!-- second container -->
@@ -159,7 +159,7 @@
             <div class="trans2">
             </div>
             <div class="trans3">
-                <div class="time">Time</div>
+                <div class="time1">Time</div>
                  <div class="hours" id="hrs">&nbsp;12</div>
                  <div class="semicolon" >:</div>
                  <div class="minutes" id="mins">&nbsp;10<br>Mins</div>
@@ -170,7 +170,7 @@
             <div class="point" id="texttime">
                 <p>GRAB SOME HEALTHY BREAKFAST</p>
             </div>
-            <div>
+            <div class="image" >
                 <img src="./Group 5183-1.png" alt="component 30"  id="image" class="image">
             </div>
 

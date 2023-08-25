@@ -85,15 +85,15 @@ button.addEventListener('click',function(){
         document.getElementById('texttime').innerHTML="CLOSE YOUR EYES AND GO TO SLEEP"
         document.getElementById('image').src ="./Group 5194.png"
     }
-    let timing =document.getElementsByClassName('time_show')
+    let time =document.getElementsByClassName('timewritten')
 
-    timing[0].innerText =wakeup.options[wakeup.selectedIndex].text;
-    timing[1].innerText =lunch.options[lunch.selectedIndex].text;
-    timing[2].innerText =nap.options[nap.selectedIndex].text;
-    timing[3].innerText =night.options[night.selectedIndex].text;
-        console.log(timing[0])
-        console.log(timing[1])
-        console.log(timing[2])
-        console.log(timing[3])
+    time[0].innerHTML =wakeup.options[wakeup.selectedIndex].text;
+    time[1].innerHTML =lunch.options[lunch.selectedIndex].text;
+    time[2].innerHTML =nap.options[nap.selectedIndex].text;
+    time[3].innerHTML =night.options[night.selectedIndex].text;
+        console.log(time[0])
+        console.log(time[1])
+        console.log(time[2])
+        console.log(time[3])
      
 })
